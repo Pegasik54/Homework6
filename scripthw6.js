@@ -2,8 +2,9 @@
 
 const number = [1, 5, 4, 10, 0, 3];
 for (let i = 0; i < number.length; i++ ) {
-    if (number[i] == 10) break;
     console.log(number[i]);
+    if (number[i] == 10) break;
+    
 }
 
 // ЗАДАНИЕ 2
@@ -110,16 +111,16 @@ console.log(newMeaning);
 
 
     const ar = [];
-    const arrLength = 6;
+    const arLength = 6;
     const rangMin = 1;
     const rangMax = 10;
     let sums = 0;
 
-    for (let i = 0; i < arrLength; i++) {
+    for (let i = 0; i < arLength; i++) {
         ar.push(Math.round(Math.random() * (rangMax - rangMin )))
     }
     console.log(ar);
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < ar.length; i++) {
         sums = ar[i] + ar[i + 1] || ar[i];
         console.log(sums);
     }
