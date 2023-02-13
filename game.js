@@ -60,3 +60,4 @@ function memoryGame() {
         alert('Попробуйте ещё раз!');
     }
 }
+// 

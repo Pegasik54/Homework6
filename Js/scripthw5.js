@@ -85,7 +85,7 @@ const formatDate = (date) => {
 Время: ${date.toLocaleTimeString(locale)}`
 }
 console.log(formatDate(new Date()));
-
+// 
 
 
 
